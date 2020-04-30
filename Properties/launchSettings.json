@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Renamer": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\pool\\renamer.txt D:\\pool\\test_renamer"
+    }
+  }
+}
