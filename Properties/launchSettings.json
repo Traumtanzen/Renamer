@@ -2,7 +2,7 @@
   "profiles": {
     "Renamer": {
       "commandName": "Project",
-      "commandLineArgs": "D:\\pool\\renamer.txt D:\\pool\\test_renamer"
+      "commandLineArgs": "\"D:\\GoKids - Sergey Gvardeenko\\02-Рабочая папка\\08-T2+DL+Farm\\Farm\\ref.txt\" \"D:\\GoKids - Sergey Gvardeenko\\02-Рабочая папка\\08-T2+DL+Farm\\Farm\\zh\""
     }
   }
 }

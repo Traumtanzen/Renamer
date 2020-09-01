@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using System.Runtime.InteropServices;
 
 namespace Renamer
 {
@@ -16,8 +15,7 @@ namespace Renamer
             DirectoryInfo d = new DirectoryInfo(args[1]);
             List<FileInfo> folder = d.GetFiles().ToList();
 
-            folder = folder.Where(x => x.Name != "desktop.ini").ToList();
-
+            folder = folder.Where(x => x.Extension == ".wav").ToList();
             folder.SortNatural(item => item.Name);
 
             if (folder.Count != listOfNames.Count)
